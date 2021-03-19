@@ -1,0 +1,172 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 18px;
+    font-weight: 800;
+    float:left;
+    font-family: Roboto;
+    color:#8d76ce;
+}
+
+.menu {
+     float: right;
+     color:white;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #8d76ce;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float:left;
+}
+
+nav ul li a {
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li hover {
+    text-decoration: underline;
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Raboto;
+    font-style: bold;
+    text-align: left;
+    vertical-align: Top;
+    font-size: 18px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-style: bold;
+    color:#7694ce;
+}
+
+span  {
+    color:#8d76ce;
+    text-decoration: underline;
+}
+
+div {
+    margin:0px;
+    padding:0px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+div button{
+    font-size: 12px;
+    font-style: normal;
+    line-height: 0px;
+    font-family: Roboto;
+    color: #e5e5e5;
+    background-color: #8d76ce;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    margin-left: 0px;
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contents-item-1 {
+    float: left;
+    margin-right: 50px;
+  }
+
+.contents-item-2 {
+    float: left;
+    margin-left: 50px;
+  }
+
+.contents-item-3 {
+    float : left;
+    margin-left: 50px;
+  }
+
+.contact-form {
+    padding-top: 200px;
+    font-size: 12px;
+  }
+
+.form-group {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 12px;
+    border: none;
+
+  }
+input, textarea {
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+  }
+
+button {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color:#7694ce;
+    margin-left: 530px;
+}
+
+ 
